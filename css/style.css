@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ultra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ultra", serif;
+  box-sizing: border-box;
+}
+/* Making background as a yellow like a book design */
+main {
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: yellow;
+}
+
+.gamebook {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  gap: 10px;
+}
+/* styling individual row item */
+.row {
+  background-color: red;
+  justify-content: space-between;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+/* first bg row color */
+.row-1-noun {
+  background-color: #e006e0;
+}
+/* Second row bg color */
+.row-2-verb {
+  background-color: skyblue;
+}
+/* styling the row heading number */
+.row-heading {
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.row-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-individual-img {
+  margin-top: 15px;
+  height: 3rem;
+  width: 3rem;
+}
+.row-individual p {
+  margin-top: 0.2rem;
+}
