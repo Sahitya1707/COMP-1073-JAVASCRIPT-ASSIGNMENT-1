@@ -145,4 +145,5 @@ resetBtn.addEventListener("click", function () {
   countRow3 = 0;
   countRow4 = 0;
   countRow5 = 0;
+  displayText.innerText = "Your Text Here. Reset Button Pressed ✌️";
 });
