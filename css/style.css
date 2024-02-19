@@ -5,6 +5,13 @@
   font-family: "Ultra", serif;
   box-sizing: border-box;
 }
+/* Header styling here */
+.header {
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
 /* Making background as a yellow like a book design */
 main {
   /* height: 100vh; */
@@ -16,7 +23,7 @@ main {
   display: flex;
   justify-content: center;
   width: 70%;
-  margin: 0 auto;
+  margin: 1rem auto;
   gap: 10px;
 }
 /* styling individual row item */
